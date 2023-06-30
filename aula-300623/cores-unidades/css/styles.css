@@ -1,0 +1,49 @@
+.red1, .red2, .red3{
+    width: 200px;
+    height: 200px;
+}
+
+.red1 {
+    background-color: red;
+}
+
+.red2 {
+    background-color: #e7e393;
+}
+
+.red3{
+    background-color: rgba(255, 0, 0, 1);
+}
+
+/* unidades de medida 
+- Absolutas: px, cm, pt, etc;
+- Relativas: vh (view height), vw (view width), em (baseado no elemento pai), rem (baseado no elemento raiz), % (baseado no elemento pai)
+*/
+
+.quadrado1 {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+}
+
+/* vw e vh = em relação a viewport  */
+.quadrado2{ /* --> se adapta de acordo com o tamanho da tela */ 
+    width: 60vw; /* 60% da largura */
+    height: 50vh;
+    background-color: orange;
+}
+
+/* % = em relação ao elemento pai !e não a viewport! */
+/* depende das dimensões definidas no elemento pai */
+.quadrado3 {
+    background-color: tomato;
+    width: 50%;
+    height: 40%;
+}
+
+/* Dependendo das dimensões a imagem pode ser destorcida */
+.quadrado2 img{ /* --> ISSO SE CHAMA combinador */ 
+    width: 100%;
+    height: 100%;
+}
