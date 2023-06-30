@@ -1,0 +1,40 @@
+
+/* 
+REM = Medida Relativa ao Elemento HTML 
+*/
+
+/* vamos selecionar somente os h1, h2 e h3 DENTRO dos containers */
+.container h1, 
+.container h2, 
+.container h3{
+    /* left, center */
+    text-align: center;
+    /* italic, oblique */
+    font-style: italic;
+    /* 100, 200, ... 900 (de 100 em 100) */
+    font-weight: 100;
+    color: purple;
+}
+
+.container h1{
+    font-size: 3rem; /* 3rem * 16px = 48px */
+}
+
+.container h2{
+    font-size: 2.5rem; /* 2.5rem * 16px = 40px */
+}
+
+.container h3{
+    font-size: 2rem; /* 2rem * 16px = 32px */
+}
+
+.container p{
+    text-align: justify;
+    font-size: 1.25rem; /* 1.25rem * 16px = 20px */
+}
+
+/* Elemento raiz - altera os padrões do projeto */
+html{
+    font-size: 8px;
+}
+
