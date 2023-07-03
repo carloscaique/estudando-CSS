@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.inline {
+    display: inline;
+}
+
+h1 {
+    background-color: red;
+    display: block;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+/* Display:
+display: block -> ocupa toda largura e quebra linha no final.
+display: inline -> ocupa apenas o necessário, não quebra linha. 
+none 
+*/
