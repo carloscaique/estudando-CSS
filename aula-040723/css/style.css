@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; /* Tira as margins de todos os elementos */
+    padding: 0;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+}
+
+main{
+    padding: 16px 32px;
+}
+
+.blog-secao{
+    margin: 16px 0; /* Espaçamento entre as seções */
+
+}
+
+.blog-secao h2{ /* Vai adicionar somente nos h2 dentro da "blog-secao" */
+    text-align: center;
+}
+
+.blog-secao p{
+    text-align: justify;
+}
+
+.btn{
+    background-color: green;
+    border: 0;
+    padding: 8px 12px; /* de dentro do botão para fora */
+    margin: 4px 0; /* Aplicando em cima e embaixo (da extremidade do botão pra fora */
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+}
+
+/* hover = quando o mouse está sobre o elemento */
+
+.btn:hover .blog-secao{ /* Aplica as estilizações quando o mouse está em cima */
+    background-color: brown;
+    color: white;
+    transition: 2s;
+}
+
+.material-symbols-outlined{
+    font-size: 14px;
+}
+
+.navegacao ul{
+    background-color: brown;
+    text-align: center;
+}
+
+.navegacao li{
+    display: inline-block;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 12px 8px;
+}
