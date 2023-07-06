@@ -19,7 +19,7 @@
     /* Valores: start, end (jogar para o final), center, space-between (espaço entre), space-evenly (entre os elementos e nas laterais os espaços são aplicados), space-around (espaço em volta). space-around -> ajusta os elementos no main -> horizontal */
     justify-content: space-between; /* --> o justify-content: é usado no flex-direction: row . display: flex com o justify-content: center pode ser usado para centralizar botões, formulários, etc*/
     /* Valores: stretch, flex-start, flex-end, center */
-    align-items: center; /* --> vai alinhar os elementos mesmo que um deles for maior que o outro, sem esticar os outros. ! --> O container obedecerá o tramanho do maior elemento. ! --> Ajusta os elementos no eixo cross */
+    align-items: center; /* --> vai alinhar os elementos mesmo que um deles for maior que o outro, sem esticar os outros. ! --> O container obedecerá o tramanho do maior elemento. ! --> Ajusta os elementos no EIXO CROSS */
     /* space-between, space-around, center, flex-start, flex-end */
     /* align-content: flex-end ; Só serve se tiver linhas (altura). ! --> Ajusta em um todo */
 
