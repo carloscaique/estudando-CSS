@@ -1,0 +1,47 @@
+/* @media screen and (max-width: 599px) {
+    body{
+        background-color: red;
+        font-family: monospace;
+    }
+
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+
+    .card1, .card2, .card3{
+        flex-direction: column;
+    }
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(44, 44, 44);
+    justify-content: space-around;
+}
+
+.inicio img{
+    max-width: 200px;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+.card1, .card2, .card3{
+    background-color: rgb(73, 27, 171);
+    width: 500px;
+    display: flex;
+    margin: 16px;
+    padding: 16px;
+}
+
+/* ! Para usar o overflow precisa travar a altura e a largura ! 
+    é aplicado no elemento pai do parágrafo
+*/
